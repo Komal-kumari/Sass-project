@@ -1,0 +1,17 @@
+@import 'variables';
+footer {
+    //margin-top: 10.4em;
+   & .container {
+    background-color: $bg-color;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 1.5em 0 2em 0;
+     
+    
+  }
+}
+  
+  
