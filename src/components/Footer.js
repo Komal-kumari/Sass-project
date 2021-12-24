@@ -1,15 +1,11 @@
 import '../styles/footer.scss';
 const Footer = () => {
     return(
-      <footer>
-        
+      <footer>        
           <div class="container">
             <p>&copy;Privacy & Security</p>
             
-          </div>
-        
-        
-        
+          </div>        
       </footer>
     )
   }
