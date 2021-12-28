@@ -1,36 +1,28 @@
-/* FONT IMPORTED */
+@import 'mixin';
 
-/* Fira Sans */
-@import url("https://fonts.googleapis.com/css?family=Fira+Sans");
-
-#container {
-  width: 100%;
-  display: inline-block;
-}
-
-/** HEADER */
-
-/** NAVIGATION BAR */
 nav {
-  overflow: hidden;
-  background-color: #A6CF98;
-  position: fixed;
-  top: 0;
+  @include fixnav;
   width: 100%;
+  top: 0;
   ul {
-    text-align: center;
-    list-style-type: none;
+    width: 100%;
     list-style-type: none;
     margin: 0;
-    padding: 15px;
+    padding-top: 1%;
+    padding-bottom: 1%;
     li {
       display: inline;
       font-family: "Fira Sans", sans-serif;
       font-size: 17px;
+      #logo{
+        float: left;
+        margin: 0;
+      }
       a {
-        color: black;
+        color: var(--text-color);
         text-decoration: none;
-        padding: 14px;
+        padding: 12px;
+        
         &:hover {
           background-color: #557C55;
         }
@@ -39,6 +31,3 @@ nav {
   }
 }
 
-.content {
-  text-align: center;
-}

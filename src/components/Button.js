@@ -1,12 +1,16 @@
 import '../styles/button.scss';
+import Button1 from './Button1';
+import Button2 from './Button2';
+import Button3 from './Button3';
+import Button4 from './Button4';
 const Button = () => {
     return(    
         
           <div class="btn">
-            <button>Button 1</button>
-            <button>Button 2</button>
-            <button>Button 3</button>
-            <button>Button 4</button>
+            <Button1/>
+            <Button2/> 
+            <Button3/>
+            <Button4/>
             
           </div>             
     )

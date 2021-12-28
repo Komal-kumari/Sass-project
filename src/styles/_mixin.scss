@@ -2,3 +2,14 @@
     float: left;      
     text-align: center;
 }
+
+@mixin fixnav{
+    background-color: var(--bg-color);
+    position: relative;
+    min-width: 100%;
+    text-align: center;
+}
+
+@mixin theme() {
+    
+}
